@@ -23,3 +23,17 @@ At each step in time, the following transitions occur:
     3 - Any live cell with more than three live neighbors dies (overcrowding).
 
     4 - Any dead cell with exactly three live neighbors becomes a live cell (reproduction).
+
+
+
+__To run__
+
+Execute requirements
+```sh
+python -m pip install -r requirements.txt
+```
+
+Run code
+```sh
+python app.py
+```
